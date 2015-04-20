@@ -9,11 +9,11 @@
 	<div id="header_connexion">
 		<?php
 			// Code a exécuter une seule et unique fois. Mettre en commentaire après son exécution
-			/*FB.ui(
+			FB.ui(
 			{
 				method: 'pagetab',
-				redirect_uri: 'YOUR_URL'
-			}, function(response){});*/
+				redirect_uri: 'https://drs-projet.herokuapp.com/html/accueil.php'
+			}, function(response){});
 
 			// Uses ...
 			use Facebook\FacebookSession;
