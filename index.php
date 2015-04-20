@@ -1,4 +1,16 @@
 ﻿
+<?php include_once './vendor/autoload.php'; ?>
+<?php 
+	$app->register(new Silex\Provider\TwigServiceProvider(), array(
+		'twig.path' => __DIR__.'/../views',
+	)); 
+	$app->get('/twig/{name}', function ($name) use ($app) {
+		return $app['twig']->render('index.twig', array(
+			'name' => $name,
+		));
+	});
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
