@@ -1,0 +1,224 @@
+﻿
+
+
+/*------------------------------------------------------------------------------*/
+/*---------------------------------- BOUTONS -----------------------------------*/
+/*------------------------------------------------------------------------------*/
+.bouton
+{
+	padding:7px 15px;
+	border-radius: 10px 10px 10px 10px;
+	background-image:radial-gradient(rgba(50, 100, 150, 0.8), rgba(50, 100, 150, 0.2));
+	color:white;
+	cursor:pointer;
+}
+	.bouton:hover
+	{
+		background-color:rgb(50, 100, 150);
+	}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*---------------------------------- SAISIES -----------------------------------*/
+/*------------------------------------------------------------------------------*/
+.saisie
+{
+	padding:7px 15px;
+	border-radius: 10px 10px 10px 10px;
+	background-image:radial-gradient(white, rgba(50, 100, 150, 0.2));
+	cursor:pointer;
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*----------------------------------- LIENS ------------------------------------*/
+/*------------------------------------------------------------------------------*/
+a
+{
+	color:rgba(50, 100, 150, 1);
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*------------------------------------ HTML ------------------------------------*/
+/*------------------------------------------------------------------------------*/
+HTML
+{
+	width:auto;
+	background-color:white;
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*------------------------------------ BODY ------------------------------------*/
+/*------------------------------------------------------------------------------*/
+BODY
+{
+	color:black; 
+	font-family:Kalinga;
+	font-size:1em;
+}
+
+.body2
+{
+	/* Largeur applications Facebook : 760px */
+	width:700px;
+	/* Test */height:1000px;
+	margin:20px auto 0 auto;
+	padding:20px;
+	border:10px solid grey;
+	background-image:radial-gradient(white, rgba(50, 100, 150, 0.5));
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*----------------------------------- HEADER -----------------------------------*/
+/*------------------------------------------------------------------------------*/
+#header
+{
+	width:680px;
+	padding:10px;
+}
+
+/*--------- Header : Accueil --------*/
+#header_accueil
+{
+	width:320px;
+	padding:10px;
+	float:left;
+}
+
+/*-------- Header : Connexion -------*/
+#header_connexion
+{
+	width:320px;
+	padding:10px;
+	float:right;
+	text-align:right;
+}
+	#connexion
+	{
+		/* Vide */
+	}
+		
+	#deconnexion
+	{
+		/* Vide */
+	}
+
+
+
+/*------------------------------------------------------------------------------*/
+/*----------------------------------- FOOTER -----------------------------------*/
+/*------------------------------------------------------------------------------*/
+#footer
+{
+	width:auto;
+	padding:20px;
+	clear:both;
+	background-image:radial-gradient(white, rgba(95, 95, 95, 1));
+	font-weight:bold;
+	text-align:center;
+}
+	#footer_contenu_1
+	{
+		/* Vide */
+	}
+		/*#footer_informations
+		{
+			width:49%;
+			min-width:294px;
+			padding-left:1%;
+			float:left;
+		}
+		#footer_sites_partenaires
+		{
+			width:49%;
+			min-width:294px;
+			padding-right:1%;
+			float:right;
+		}
+			#footer_sites_partenaires li
+			{
+				list-style:none;
+			}
+	#footer_conditions
+	{
+		width:100%;
+		min-width:600px;
+		clear:both;
+	}*/
+
+
+
+/*------------------------------------------------------------------------------*/
+/*----------------------------- FENETRES DIVERSES ------------------------------*/
+/*------------------------------------------------------------------------------*/
+
+/*---------------------------------- Contenu -----------------------------------*/
+.contenu
+{
+	margin:50px auto 0 auto;
+	text-align:center;
+}
+
+/*----------------------------------- Email ------------------------------------*/
+#mail
+{
+	width:100%;
+}
+
+#formulaire_mail
+{
+	
+}
+
+.formulaire_mail_element
+{
+	width:100%;
+	margin-bottom:30px;
+	text-align:left;
+}
+
+#formulaire_mail_email_destinataire
+{
+	width:50%;
+}
+
+#formulaire_mail_sujet
+{
+	width:95%;
+}
+
+#formulaire_mail_message
+{
+	width:95%;
+	max-width:95%;
+	height:300px;
+}
+
+#formulaire_mail button
+{
+	margin:0 auto;
+}
+
+#formulaire_erreur
+{
+	width:95%;
+	height:100px;
+	text-align:left;
+	background-color:rgb(240, 110, 130);
+	color:red;
+}
+
+/*------------------------- Formulaire d'inscription ---------------------------*/
+/*#Inscription center
+{
+	color : #932390;
+	font-size : x-large;
+}*/

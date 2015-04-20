@@ -1,0 +1,18 @@
+
+A faire : 
+- Probleme actualisation uniquement apres connexion 
+(redirect url suite a la connexion = bug)
+- Bouton deconnexionn vraiment utile ? 
+(ne deconnecte pas Facebook mais la session de l'application)
+
+- gestion page email
+- HEROKU ?
+- 
+
+
+
+x Recupération photo profil
+x bouton accueil lorsqu'on est dans la page email
+x fonctionnalité share
+x Insertion BDD et test si utilisateur deja inscrit
+x 
