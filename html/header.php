@@ -8,12 +8,6 @@
 
 	<div id="header_connexion">
 		<?php
-			// Code a exécuter une seule et unique fois. Mettre en commentaire après son exécution
-			FB.ui(
-			{
-				method: 'pagetab',
-				redirect_uri: 'https://drs-projet.herokuapp.com/html/accueil.php'
-
 			// Uses ...
 			use Facebook\FacebookSession;
 			use Facebook\FacebookRedirectLoginHelper;
