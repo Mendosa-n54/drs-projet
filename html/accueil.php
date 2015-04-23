@@ -27,6 +27,13 @@
 			fjs.parentNode.insertBefore(js, fjs);
 		}
 		(document, 'script', 'facebook-jssdk'));
+		
+		// Code a exécuter une seule et unique fois. Mettre en commentaire après son exécution
+		/*FB.ui({
+			method: 'pagetab',
+			//redirect_uri: 'YOUR_URL'
+			redirect_uri: 'https://drs-projet.fr.gp/html/accueil.php'
+		}, function(response){});*/
 	</script>
 </head>
 

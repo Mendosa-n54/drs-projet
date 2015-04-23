@@ -13,7 +13,6 @@
 			{
 				method: 'pagetab',
 				redirect_uri: 'https://drs-projet.herokuapp.com/html/accueil.php'
-			}, function(response){});
 
 			// Uses ...
 			use Facebook\FacebookSession;

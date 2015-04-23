@@ -25,7 +25,7 @@
 		<!-- Contenu -->
 		<div class="contenu">
 			<?php
-				var_dump($_POST);
+				//var_dump($_POST);
 				
 				$erreurs = [];
 				
@@ -63,12 +63,12 @@
 						$message .= $anniversaire;
 					}
 					
-					mail($destinataire, $sujet, $message, $headers);
-					/*echo $headers;
+					//mail($destinataire, $sujet, $message, $headers);
+					echo $headers;
 					echo "</br></br>";
 					echo $sujet;
 					echo "</br></br>";
-					echo "<style='text-align:left;'>".$message."</style>";*/
+					echo "<style='text-align:left;'>".$message."</style>";
 				}
 			?>
 		</div>
